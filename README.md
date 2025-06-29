@@ -59,3 +59,25 @@ web3-crowdfunding/
 └── .gitignore                     # Files/folders to ignore in Git
 
 
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/web3-crowdfunding.git
+cd web3-crowdfunding
+
+2. Install Frontend Dependencies
+
+cd frontend
+npm install
+
+3. Run the Frontend
+
+npm run dev
+
+Open your browser and go to: http://localhost:3000
+
+
