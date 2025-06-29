@@ -66,7 +66,7 @@ web3-crowdfunding/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/web3-crowdfunding.git
+https://github.com/Tarun881/Web3-Crowdfunding.git
 cd web3-crowdfunding
 
 2. Install Frontend Dependencies
