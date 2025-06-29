@@ -33,14 +33,29 @@
 ## 📁 Project Structure
 
 web3-crowdfunding/
-├── contracts/
-│ ├── crowdfunding.sol
-│ └── crowdfundingfactory.sol
-├── frontend/
-│ ├── index.html
-│ ├── app.js
-│ └── style.css
-├── .gitignore
-├── package.json
-└── README.md
+├── contracts/                      # Solidity smart contracts
+│   ├── Crowdfunding.sol
+│   └── CrowdfundingFactory.sol
+│
+├── components/                    # Frontend components
+│   ├── CampaignCard.tsx
+│   ├── MyCampaignCard.tsx
+│   ├── Navbar.tsx
+│   └── TierCard.tsx
+│
+├── app/                           # Next.js app directory
+│   ├── layout.tsx
+│   ├── page.tsx
+│   └── globals.css
+│
+├── public/                        # Public assets
+│   └── favicon.ico
+│
+├── lib/                           # Helper & config files
+│   ├── client.ts
+│   └── contracts.ts
+│
+├── README.md                      # Project documentation
+└── .gitignore                     # Files/folders to ignore in Git
+
 
